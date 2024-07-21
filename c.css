@@ -1,0 +1,201 @@
+body{
+    background-color:#89C15E ;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 40.2439vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:11.65311vh;
+    /* left:30.3125vw; */
+}
+#img1 {
+    width:39.375vw;
+    height:100%;
+    position: relative;
+    top:0vh;
+    left: 0vw;
+}
+#img1 img{
+    height: 100%;
+    width: 100%;
+}
+#img2{
+    width: 15.65859375vw;
+    height: 27.23577vh;
+    position: relative;
+    top:-22.10024653116531vh; 
+    /* 189 */
+    /* left:13.203125vw; */
+    /* left 557 */
+}
+#img2 img{
+    height: 100%;
+    width: 100%;
+}
+#hurray{
+    width: 36.25vw;
+    height: 11.653vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 5.6875rem;
+    line-height: 14.4498vh;
+    letter-spacing: 0.1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* top: 86.585365vh;
+    left: 45.39vw; */
+    top:57.18157vh;
+    left: 34.0625vw;
+}
+#won-the-game{
+    width: 35.7vw;
+    height: 6.5vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 2.625rem;
+    line-height: 6.5vh;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top:72.2222vh;
+    left:34.53125vw;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+}
+#hurray-btn{
+    height: 5.962vh;
+    width: 13.59375vw;
+    border-radius: 9px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 86.585365vh;
+    left: 45.39vw;
+}
+#hurray-btn button{
+    width: 7.734375vw;
+    height: 1.897vh;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 2.38211vh;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    color: #6b6b6b;
+}
+#rules-box{
+    display: none;
+}
+#rules-container{
+    height: 44vh;
+    width: 21.7185vw;
+    border-radius: 13px;
+    border: 7px solid #ffffff;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:44.71544vh;
+    left:75.3125vw;
+    background-color: #004429;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+#close-btn{
+    /* display: none; */
+    height: 6.775vh;
+    width: 3.9vw;
+    position: relative;
+    top:29.564vh;
+    left: 95vw;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    background-color: #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#x{
+    font-family: "dangrek";
+    font-weight: 400;
+    font-size: 2.75rem;
+    line-height: 10.771vh;
+    color: white;
+}
+#rules-heading{
+    height: 3.65853vh;
+    width: fit-content;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 1.8125rem;
+    line-height: 4.6vh;
+    color:#ffffff;
+}
+.list{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 2.06368vh;
+    color: #ffffff;
+    margin-bottom: 2.4239vh;
+}
+.list:nth-child(2n){ 
+    position: relative;
+}
+.list:nth-child(2n+1){
+    height:fit-content;
+    width: fit-content;
+
+}
+li::marker{
+    color: #ffd600;
+}
+
+ #rules-btn{
+    position: absolute;
+    top: 91.6434vh;
+    left: 88.75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+ }
+ #rules-btn button{
+    height: 2.71vh;
+    width: 5.625vw;
+    line-height: 3.334vh;
+ }
+ .footer-btn{
+    width: 9.296875vw;
+    height: 5.42vh;
+    border-radius: 10px;
+    border: 2px solid #d9d9d9;
+    box-sizing: content-box;
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 1.3125rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+ }

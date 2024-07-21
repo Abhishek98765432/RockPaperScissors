@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="title-with-score">
+            <div id="title">
+                <div id="r-k" class="keywords">ROCK</div>
+                <div id="p-k" class="keywords">PAPER</div>
+                <div id="s-k" class="keywords">SCISSORS</div>
+            </div>
+            <div id="score">
+                <div class="score-board">
+                    <div id="pc-key" class="first-keyword">COMPUTER</div>
+                    <div class="second-keyword">SCORE</div>
+                    <div id="put-pc-score" class="current-score">0</div>
+                </div>
+                <div class="score-board">
+                    <div id="ur-key" class="first-keyword">YOUR</div>
+                    <div class="second-keyword">SCORE</div>
+                    <div id="put-ur-score" class="current-score">0</div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <div id="choose-option">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
+            <div id="btn1" class="btn"><div><button id="rock"><img src="./public/icons8-fist-67 1.png" alt=""></button></div></div>
+            <div id="btn2" class="btn"><div><button id="paper"><img src="./public/icons8-hand-64 1.png" alt=""></button></div></div>
+
+            <div id="btn3" class="btn"><div><button  id="scissors"><img src="./public/17911 1.png" alt=""></button></div></div>
+        </div>
+        <div id="results-hidden">
+            <div id="u-picked" class="text"> YOU PICKED</div>
+            <div id="ur-choice-rock" class="ur-choice"><img src="./public/icons8-fist-67 1.png" alt=""></div>
+            <div id="ur-choice-paper" class="ur-choice"><img src="./public/icons8-hand-64 1.png" alt=""></div>
+            <!-- <div id="animate-ur-choice-scissor"> -->
+                <div id="ur-choice-scissors" class="ur-choice"><img src="./public/17911 1.png" alt=""></div>
+            <!-- </div> -->
+            <div id="win">
+                <div id="u-win" >YOU WIN</div>
+                <div class="against-pc">AGAINST PC</div>
+                <div class="play-again"><button>PLAY AGAIN</button></div>
+            </div>
+            <div id="lost">
+                <div id="u-lost">YOU LOST</div>
+                <div class="against-pc">AGAINST PC</div>
+                <div class="play-again"><button>PLAY AGAIN</button></div>
+            </div>
+            <div id="tie">
+                <div id="tie-up">TIE UP</div>
+                <div id="replay"><button>REPLAY</button></div>
+            </div>
+            <div id="pc-picked" class="text">PC PICKED</div>
+            <div id="pc-choice-rock" class="pc-choice"><img src="./public/icons8-fist-67 1.png" alt=""></div>
+            <div id="pc-choice-paper" class="pc-choice"><img src="./public/icons8-hand-64 1.png" alt=""></div>
+            <div id="animate-pc-choice-scissor"><div id="pc-choice-scissors" class="pc-choice"><img src="./public/17911 1.png" alt=""></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="rules-box">
+                <div id="rules-container">
+                        <div id="rules-heading">Game Rules</div>
+                        <ul type="square">
+                            <li class="list">Rock beats scissors, scissors beat paper, and paper beats rock</li>
+                            <li class="list">Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                            <li class="list">Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                            <li class="list">If both players lay down the same hand, each player lays down another hand</li>
+                        </ul>
+                </div>
+                <div id="close-btn"><div id="x">X</div></div>
+            </div>
+            <div id="rules-btn" class="footer-btn"><button>RULES</button></div>
+            <div id="nextButton" class="footer-btn"><button>NEXT</button></div>
+        </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
